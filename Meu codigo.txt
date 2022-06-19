@@ -2,9 +2,15 @@ git init #Inicializa o Git
 git add #Adiciona 
 git add . #Adiciona tudo
 git status #Ve status da pasta
-git commit -m "commit inicial" #m=menssagem commit= colocar as modificações que foi feito nessa versão
+git commit -m "commit inicial" #m=menssagem commit= colocar as modificações que foi feito em uma nova versão
 git config --global user.email "you@example.com" #Cadastrar o e-mail
 git config --global user.name "Your Name" #Cadastrar nome
-git push #Pegar
+git push #Adiciona as alteracões na nuvem
 git push --set-upstream origin master #Repositorio na pasta Master  
-git remote add origin https://github.com/RogerioKS/Projeto-1 #Adicionar na nuvem
+git remote add origin https://github.com/RogerioKS/Projeto-1 #Adicionar o diretório na nuvem
+get reflog #ver histórico das versões
+git reset --hard #git reset --hard 3acf20c (codigo do reflog) #Voltar a uma versão antiga
+git branch #Ver as branch que tem, verde é que esta usando no momento
+git branch NomeAki #Criar nova branch
+
+
