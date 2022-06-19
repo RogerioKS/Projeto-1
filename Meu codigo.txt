@@ -1,1 +1,10 @@
-Ola!
+git init #Inicializa o Git
+git add #Adiciona 
+git add . #Adiciona tudo
+git status #Ve status da pasta
+git commit -m "commit inicial" #m=menssagem commit= colocar as modificações que foi feito nessa versão
+git config --global user.email "you@example.com" #Cadastrar o e-mail
+git config --global user.name "Your Name" #Cadastrar nome
+git push #Pegar
+git push --set-upstream origin master #Repositorio na pasta Master  
+git remote add origin https://github.com/RogerioKS/Projeto-1 #Adicionar na nuvem
